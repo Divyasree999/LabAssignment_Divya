@@ -1,0 +1,19 @@
+
+public class CubeSumAssignment {
+    static int i,num,result=0;
+	public static void main(String[] args) {
+		int result=CubeSum(1234);
+         System.out.println("Sum of Cubes is : " +result);
+	}
+	private static int CubeSum(int i) {
+		while(i!=0)
+		{
+			num=i%10;
+			result=result+num*num*num;
+			i=i/10;
+			
+		}
+		return result;
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class TrafficSignalAssignment {
+	static String red;
+	static String yellow;
+	static String green;
+	static int n;
+    public static void main(String[] args) {
+		System.out.println("1.red\n,2.yellow\n,3.green");
+		System.out.println("Enter your choice");
+		if(n==1) {
+			System.out.println("stop");
+		}
+		if(n==2) {
+			System.out.println("")
+		}
+	}
+
+}
